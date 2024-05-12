@@ -49,6 +49,7 @@ module.exports.run = async function({ api, event, Users }) {
     //api.changeNickname(`𝗕𝗢𝗧 ${(!global.config.BOTNAME) ? "Buddy" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 
     let gifUrl = 'https://telegra.ph/file/f4bcd1d69989d695701a1.jpg';
+let gifPath = __dirname + '/Nayan/join/join.gif';
 
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
@@ -60,8 +61,8 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
 BOT CONNECTED SUCCESFUL !!! 
 
 APPROVAL ALLOW IN THIS GROUP!!!
-<------------------------------>
-{🥰🥰🥰🥰🥰🥰🥰}
+<------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
+\n\EXAMPLE:👇\n${global.config.PREFIX}admin (information)\n${global.config.PREFIX}islam (video)\n${global.config.PREFIX}tik (link)\n${global.config.PREFIX}fbvideo (link)
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
