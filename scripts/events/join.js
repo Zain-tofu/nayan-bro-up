@@ -49,7 +49,7 @@ module.exports.run = async function({ api, event, Users }) {
     //api.changeNickname(`𝗕𝗢𝗧 ${(!global.config.BOTNAME) ? "Buddy" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 
     let gifUrl = 'https://telegra.ph/file/f4bcd1d69989d695701a1.jpg';
-let gifPath = __dirname + '/Nayan/join/join.gif';
+let gifPath = __dirname + '/Nayan/join/IMG_20240513_033442_753.jpg';
 
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
@@ -184,4 +184,4 @@ https://www.facebook.com/tohidulislam.sifat.T
       }
     } catch (e) { return console.log(e) };
   }
-}
+           }
