@@ -61,7 +61,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
 BOT CONNECTED SUCCESFUL !!! 
 
 APPROVAL ALLOW IN THIS GROUP!!!
-<------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
+<------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}sing\nadio music👉 ${global.config.PREFIX}command
 \n\EXAMPLE:👇\n${global.config.PREFIX}admin (information)\n${global.config.PREFIX}islam (video)\n${global.config.PREFIX}tik (link)\n${global.config.PREFIX}fbvideo (link)
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
@@ -106,11 +106,11 @@ https://www.facebook.com/tohidulislam.sifat.T
         let avtAnime = (await axios.get(encodeURI(
           `https://graph.facebook.com/${event.logMessageData.addedParticipants[o].userFbId}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`), { responseType: "arraybuffer" })).data;
         var ok = [
-          'https://i.imgur.com/dDSh0wc.jpeg',
-          'https://i.imgur.com/UucSRWJ.jpeg',
-          'https://i.imgur.com/OYzHKNE.jpeg',
-          'https://i.imgur.com/V5L9dPi.jpeg',
-          'https://i.imgur.com/M7HEAMA.jpeg'
+          'https://i.postimg.cc/KcVGwcB6/3f42eb4eb4997957bf6f55d4430ae21e.gif',
+          'https://i.postimg.cc/HLHszSXj/a229afeb808b413af94548dc345a4bcf.gif',
+          'https://i.postimg.cc/vZ5ZWR1p/35b42c013868d057e0c824021c253f31.gif',
+          'https://i.postimg.cc/sxBVxbdH/4909eb78fdde85f1eb367703de28683a.gif',
+          'https://i.postimg.cc/C5WwqJwh/fed2d8d99d0f0ab62d0f0f444848615d.gif'
         ]
         let background = (await axios.get(encodeURI(`${ok[Math.floor(Math.random() * ok.length)]}`), { responseType: "arraybuffer", })).data;
         fs.writeFileSync(pathAva, Buffer.from(avtAnime, "utf-8"));
